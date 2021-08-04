@@ -37,19 +37,27 @@ const Home = () => {
                     <p className='ml-2 text-white font-bold text-2xl'>Taipei, Taiwan</p>
                 </div>
                 <div className='flex justify-center items-center lg:mt-24 mt-12'>
-                    <svg className='socialIcon'>
-                        <a xlinkHref="https://www.google.com" />
-                        <image className='h-10 w-10' xlinkHref={facebookIcon}></image>
-                    </svg>
-                    <svg className='socialIcon'>
-                        <image className='h-10 w-10' xlinkHref={linkedinIcon}></image>
-                    </svg>
-                    <svg className='socialIcon'>
-                        <image className='h-10 w-10' xlinkHref={instagramIcon}></image>
-                    </svg>
-                    <svg className='socialIcon' href=''>
-                        <image className='h-10 w-10' xlinkHref={gmailIcon}></image>
-                    </svg>
+                    <a href='https://www.facebook.com/gongze.gong/'>
+                        <svg className='socialIcon'>
+                            <a xlinkHref="https://www.google.com" />
+                            <image className='h-10 w-10' xlinkHref={facebookIcon}></image>
+                        </svg>
+                    </a>
+                    <a href='https://www.linkedin.com/in/tse-kung-2794a4204/'>
+                        <svg className='socialIcon'>
+                            <image className='h-10 w-10' xlinkHref={linkedinIcon}></image>
+                        </svg>
+                    </a>
+                    <a href='https://www.instagram.com/kongtse.0613/'>
+                        <svg className='socialIcon'>
+                            <image className='h-10 w-10' xlinkHref={instagramIcon}></image>
+                        </svg>
+                    </a>
+                    <a href='mailto:a1458661@gmail.com'>
+                        <svg className='socialIcon' href=''>
+                            <image className='h-10 w-10' xlinkHref={gmailIcon}></image>
+                        </svg>
+                    </a>
                 </div>
             </div >
             <div className='lg:col-span-2 col-span-3 bg-gradient-to-r from-blue-900 to-green-900 grid grid-cols-2 lg:h-screen'>
