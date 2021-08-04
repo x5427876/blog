@@ -67,7 +67,7 @@ const Home = () => {
                             <p className='text-white font-bold text-3xl ml-12 mt-8'><a href={item.svn_url} >{item.name}</a></p>
                             <p className='text-white font-bold text-1xl ml-12 my-6 grid grid-cols-4'>
                                 <div className='lg:col-span-1 col-span-2 flex items-center'>
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" viewBox="0 0 20 20" fill="currentColor">
                                         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clip-rule="evenodd" />
                                     </svg>
                                     <a class='text-white font-bold text-lg'>{item.pushed_at.substring(0, 10)}</a>
